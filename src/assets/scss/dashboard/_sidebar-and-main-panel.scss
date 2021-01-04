@@ -177,7 +177,7 @@
     display: block;
     top: 0;
     left: 0;
-    background-image: url('../../img/sidebar-1.jpg');
+    //background-image: url('../../img/sidebar-1.jpg');
     background-size: cover;
     background-position: center center;
     &:after {
@@ -306,8 +306,9 @@
     }
   }
   .sidebar-background:after {
-    background: $brand-primary;
-    opacity: .7;
+    //background: $brand-primary;
+    background: #0053a5;
+    //opacity: .7;
   }
 
   li.active > a {
@@ -318,7 +319,8 @@
   .logo,
   .nav li.separator {
     &:after {
-      background-color: white;
+      //background-color: white;
+      background-color: #024c96;
     }
   }
   .nav li .dropdown-menu .dropdown-item {
