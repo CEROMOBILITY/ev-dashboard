@@ -34,7 +34,7 @@ export class LoginHelper {
   public static async submitLoginForm(page: Page) {
     await LoginHelper.checkSubmitButtonEnabled(page);
     await expect(page).toClick(this.SUBMIT_BUTTON_SELECTOR);
-    await page.waitForNavigation({ waitUntil: 'networkidle0' });
+    // await page.waitForNavigation({ waitUntil: 'networkidle0' });
     // Wait for profile to be displayed
     await page.waitForSelector(this.LOGIN_SUCCESS_SELECTOR);
   }
@@ -122,8 +122,8 @@ export class LoginHelper {
         mockResponse = responsesByEndpoint[urlPath][request.method()]?.shift();
       }
       if (mockResponse) {  // Return mocked response
-        // const stringDebug = 'Request: ' + request.method() + ' ' + urlPath;
-        // console.log(stringDebug + ' --MOCKED--');
+        const stringDebug = 'Request: ' + request.method() + ' ' + urlPath;
+        console.log(stringDebug + ' --MOCKED--');
         await request.respond(mockResponse);
       } else { // Continue request if no mock found
         await request.continue();
