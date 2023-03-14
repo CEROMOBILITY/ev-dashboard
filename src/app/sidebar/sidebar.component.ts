@@ -132,7 +132,7 @@ export class SidebarComponent {
         }
       });
     } else {
-      this.logo = Constants.MASTER_TENANT_LOGO;
+      this.logo = Constants.MASTER_TENANT_LOGO_BLACK;
     }
   }
 }

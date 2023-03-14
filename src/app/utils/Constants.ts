@@ -21,8 +21,9 @@ export class Constants {
   public static readonly MAX_PAGING = {limit: Constants.MAX_PAGE_SIZE, skip: Constants.DEFAULT_SKIP};
 
   public static readonly USER_NO_PICTURE = 'assets/img/theme/no-photo.png';
-  public static readonly NO_IMAGE = 'assets/img/theme/no-image.png';
+  public static readonly NO_IMAGE = 'assets/img/theme/no-image.gif';
   public static readonly MASTER_TENANT_LOGO = '/assets/img/logo-low.gif';
+  public static readonly MASTER_TENANT_LOGO_BLACK = '/assets/img/logo-low-black.gif';
 
   /* RegEx validation rule */
   public static readonly REGEX_VALIDATION_LATITUDE = /^-?([1-8]?[1-9]|[1-9]0)\.{0,1}[0-9]*$/;

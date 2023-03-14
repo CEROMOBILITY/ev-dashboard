@@ -8,9 +8,9 @@
   border: 0;
   display: flex;
   align-items: center;
-  background-image: url('../../img/bg-auth-layout.jpg');
+  /* background-image: url('../../img/bg-auth-layout.jpg');
   background-size: cover;
-  background-position: top center;
+  background-position: top center; */
 
   > .container {
     color: $brand-text;
@@ -51,7 +51,8 @@
   }
 
   &::before {
-    background: rgba(0, 0, 0, .3);
+    // background: rgba(0, 0, 0, .3);
+    background: #04b5ed;
   }
 
   .container {

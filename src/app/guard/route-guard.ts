@@ -109,9 +109,9 @@ export class RouteGuardService implements CanActivate, CanActivateChild, CanLoad
         return false;
       }
       if (Array.isArray(auth)) {
-        return true;//auth.some(authElement => this.authorizationService.canAccess(authElement.entity, authElement.action));
+        return auth.some(authElement => this.authorizationService.canAccess(authElement.entity, authElement.action));
       }
-      return true;//this.authorizationService.canAccess(auth.entity, auth.action);
+      return this.authorizationService.canAccess(auth.entity, auth.action);
     }
     return false;
   }

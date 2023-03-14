@@ -133,7 +133,8 @@
       }
       &.active > a,
       &.active > a i {
-        color: mat.get-color-from-palette($app-foreground, base) !important;
+        // color: mat.get-color-from-palette($app-foreground, base) !important;
+        color: white !important;
       }
       &.separator {
         margin: 15px 0;
@@ -173,7 +174,7 @@
   .nav li .dropdown-menu a {
     margin: 10px 15px 0;
     border-radius: $border-radius-base;
-    color: white;
+    // color: white;
     padding-left: 7px;
     padding-right: 8px;
     text-transform: inherit;
@@ -187,9 +188,9 @@
     display: block;
     top: 0;
     left: 0;
-    background-image: url('../../img/sidebar-1.jpg');
+    /* background-image: url('../../img/sidebar-1.jpg');
     background-size: cover;
-    background-position: center center;
+    background-position: center center; */
     &:after {
       position: absolute;
       z-index: 3;
@@ -230,7 +231,7 @@
       background-color: rgba(180, 180, 180, .3);
     }
     .simple-text {
-      color: white;
+      // color: white;
       text-transform: uppercase;
       vertical-align: middle;
       display: inline-block;
@@ -241,7 +242,7 @@
       overflow: hidden;
     }
     .app-title {
-      color: white;
+      // color: white;
       font-size: 1.2rem;
       text-transform: initial;
       padding-top: 0;
@@ -249,7 +250,7 @@
     }
 
     .app-version {
-      color: white;
+      // color: white;
       font-size: 0.8em;
       text-transform: initial;
       padding-top: 0;
@@ -290,7 +291,7 @@
       }
     }
     a {
-      color: white;
+      // color: white;
       padding: $padding-base-vertical $padding-large-vertical;
       white-space: nowrap;
     }
@@ -314,19 +315,21 @@
     }
   }
   .sidebar-background:after {
-    background: $brand-primary;
-    opacity: .7;
+    /* background: $brand-primary;
+    opacity: .7; */
   }
 
   li.active > a {
-    background-color: $brand-background;
+    // background-color: $brand-background;
+    background-color: #1976d2;
   }
 
   .user,
   .logo,
   .nav li.separator {
     &:after {
-      background-color: white;
+      // background-color: white;
+      background-color:rgba(0, 0, 0, 0.87);
     }
   }
   .nav li .dropdown-menu .dropdown-item {

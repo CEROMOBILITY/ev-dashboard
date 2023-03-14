@@ -165,7 +165,8 @@
   &.bg-primary,
   &.card-rotate.bg-primary .front,
   &.card-rotate.bg-primary .back {
-    background: $brand-primary;
+    // background: $brand-primary;
+    background: #0a2236;
   }
   .card-header-info .card-icon,
   .card-header-info .card-text,
