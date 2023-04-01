@@ -1,5 +1,6 @@
-import CreatedUpdatedProps from 'types/CreatedUpdatedProps';
 import { OcpiEndpointAuthorizationActions } from 'types/Authorization';
+import CreatedUpdatedProps from 'types/CreatedUpdatedProps';
+
 import { TableData } from '../Table';
 import { OCPIBusinessDetails } from './OCPIBusinessDetails';
 import { OCPIRole } from './OCPIRole';

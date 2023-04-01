@@ -23,7 +23,7 @@ export class Constants {
   public static readonly USER_NO_PICTURE = 'assets/img/theme/no-photo.png';
   public static readonly NO_IMAGE = 'assets/img/theme/no-image.gif';
   public static readonly MASTER_TENANT_LOGO = '/assets/img/logo-low.gif';
-  public static readonly MASTER_TENANT_LOGO_BLACK = '/assets/img/logo-low-black.gif';
+  public static readonly MASTER_TENANT_LOGO_BLACK = '/assets/img/logo-low-black.png';
 
   /* RegEx validation rule */
   public static readonly REGEX_VALIDATION_LATITUDE = /^-?([1-8]?[1-9]|[1-9]0)\.{0,1}[0-9]*$/;
@@ -44,6 +44,6 @@ export class Constants {
   public static readonly SELECT_ALL = 'A';
 
   /* App Info for STRIPE */
-  public static readonly STRIPE_APP_NAME = 'Open e-Mobility';
+  public static readonly STRIPE_APP_NAME = 'Open CERO SMART MOBILITY';
   public static readonly STRIPE_PARTNER_ID = 'TECH-000685';
 }

@@ -553,7 +553,7 @@
     "eula": "End-user License Agreement",
     "must_accept_eula": "You must accept the End-user License Agreement",
     "no_space_in_password": "No space is allowed at the beginning and the end",
-    "title": "Sign in to Open e-Mobility",
+    "title": "Sign in to Open CERO SMART MOBILITY",
     "register": "Register",
     "signup_link": "New user? Register!",
     "signin_link": "Already have an account? Sign in!",
@@ -613,7 +613,7 @@
     "verify_email_proceed_with_activation": "Your account is still inactive! Do you want to resend the activation email?",
     "verify_email_proceed_with_activation_button": "Proceed",
     "invalid_captcha_token": "Invalid captcha token",
-    "mercedes_data_usage": "SAP Labs France is accessing your car’s data via Mercedes-Benz for the purpose of providing you a high quality of service during the charging session of your vehicle. SAP Labs France is processing the following data: EV battery level and range of your car. For allowing the processing of your data, you’ll have to give the explicit consent in the following steps. For any further information please note our End-user Agreement Usage of the e-Mobility Software."
+    "mercedes_data_usage": "SAP Labs France is accessing your car’s data via Mercedes-Benz for the purpose of providing you a high quality of service during the charging session of your vehicle. SAP Labs France is processing the following data: EV battery level and range of your car. For allowing the processing of your data, you’ll have to give the explicit consent in the following steps. For any further information please note our End-user Agreement Usage of the CERO SMART MOBILITY Software."
   },
   "statistics": {
     "title": "Statistics",
@@ -1550,8 +1550,8 @@
     },
     "onboarding": {
       "onboard_action": "Send the onboarding email to the business owner",
-      "onboarding_title": "Open e-Mobility - Account Onboarding",
-      "onboarding_message": "You have been invited to onboard your company as an account connected to the Open e-Mobility platform.",
+      "onboarding_title": "Open CERO SMART MOBILITY - Account Onboarding",
+      "onboarding_message": "You have been invited to onboard your company as an account connected to the Open CERO SMART MOBILITY platform.",
       "onboarding_message_to_proceed": "Click the link below to complete the onboarding process.",
       "onboarding_congratulations": "Congratulations",
       "onboarding_process_completed": "The onboarding of your account has been completed.",
@@ -1592,9 +1592,9 @@
       "update_success": "OCPI settings have been updated successfully",
       "update_error": "Error occurred while updating the OCPI settings, check the logs",
       "description": [
-        "E-Mobility provides a certified service to connect to an external E-Roaming Platform.",
+        "CERO SMART MOBILITY provides a certified service to connect to an external E-Roaming Platform.",
         "This feature exposes real-time the charging station infrastructure and availability via the OCPI standard protocol (Open Charge Point Interface).",
-        "E-Mobility is currently using the Gireve Inter-Operability Platform (IOP)."
+        "CERO SMART MOBILITY is currently using the Gireve Inter-Operability Platform (IOP)."
       ]
     },
     "oicp": {
@@ -1608,16 +1608,16 @@
       "update_success": "OICP settings have been updated successfully",
       "update_error": "Error occurred while updating the OICP settings, check the logs",
       "description": [
-        "E-Mobility provides a certified service to connect to an external E-Roaming Platform.",
+        "CERO SMART MOBILITY provides a certified service to connect to an external E-Roaming Platform.",
         "This feature exposes real-time the charging station infrastructure and availability via the OICP protocol (Open InterCharge Protocol).",
-        "E-Mobility is currently using the Hubject B2B Service Platform (HBS)."
+        "CERO SMART MOBILITY is currently using the Hubject B2B Service Platform (HBS)."
       ]
     },
     "refund": {
       "description": [
-        "E-Mobility provides a refund service for an external expense system.",
+        "CERO SMART MOBILITY provides a refund service for an external expense system.",
         "This feature allows the user to push his sessions to an expense system and get reimbursed of the electricity he consumed.",
-        "E-Mobility is currently using SAP Concur. More technical information available at "
+        "CERO SMART MOBILITY is currently using SAP Concur. More technical information available at "
       ],
       "not_found": "Refunding settings not found",
       "create_success": "Refunding settings have been created successfully",
@@ -1656,7 +1656,7 @@
       "update_success": "Pricing settings have been updated successfully",
       "update_error": "Error occurred while updating the Pricing settings, check the logs",
       "simple_pricing_title": "Built-in Pricing Module",
-      "full_description": "Open E-Mobility provides a pricing module which allows a flexible definition of your company's pricing strategy.",
+      "full_description": "Open CERO SMART MOBILITY provides a pricing module which allows a flexible definition of your company's pricing strategy.",
       "pricing_currency_changed_title": "Modification of the currency",
       "pricing_currency_changed_confirm": [
         "You are about to change the currency. This will force you to reconnect after saving.",
@@ -1786,7 +1786,7 @@
         "force_synchronize_user_failure": "Failed to synchronize the user, check the logs"
       },
       "stripe": {
-        "description": "E-Mobility allows to send invoices to the charging station users with Stripe ...",
+        "description": "CERO SMART MOBILITY allows to send invoices to the charging station users with Stripe ...",
         "title": "Stripe",
         "url": "URL of Stripe Dashboard",
         "public_key": "Publishable API Key",
@@ -1807,9 +1807,9 @@
         "settings": "Settings"
       },
       "description": [
-        "E-Mobility exposes its data to external analytics tools.",
+        "CERO SMART MOBILITY exposes its data to external analytics tools.",
         "This feature exposes real-time all the session data through a connector to external data analytics tools.",
-        "E-Mobility is currently using SAP Analytics Cloud via an OData connector.",
+        "CERO SMART MOBILITY is currently using SAP Analytics Cloud via an OData connector.",
         "SAP Analytics Cloud supports the intelligent use of charging data to simplify operational decision making.",
         "More technical information available at "
       ],
@@ -1831,7 +1831,7 @@
         "limit_buffer_dc": "Buffer for Limit DC (%)",
         "limit_buffer_ac": "Buffer for Limit AC (%)"
       },
-      "description": "E-Mobility can use smart charging algorithm to optimize power distribution and charging schedules based on complex constraints",
+      "description": "CERO SMART MOBILITY can use smart charging algorithm to optimize power distribution and charging schedules based on complex constraints",
       "setting_do_not_exist": "Configuration has not been found",
       "setting_not_found": "SAP Smart Charging settings have not been found",
       "create_success": "SAP Smart Charging settings have been created successfully",
@@ -1869,7 +1869,7 @@
       "unknown_connection_error": "Unknown connection error",
       "invalid_grant": "Incorrect User or Password",
       "connection_failed": "Connection failed",
-      "description": "E-Mobility can manage your asset consumption and use this information with the smart charging algorithm to balance the charging station's consumptions for a given site area.",
+      "description": "CERO SMART MOBILITY can manage your asset consumption and use this information with the smart charging algorithm to balance the charging station's consumptions for a given site area.",
       "setting_do_not_exist": "Configuration has not been found",
       "setting_not_found": "Asset settings have not been found",
       "create_success": "Asset settings have been created successfully",
@@ -1901,7 +1901,7 @@
         "revoke_success": "Your connection with Mercedes has been successfully revoked",
         "revoke_error": "Error occurred while revoking your connection with Mercedes, check the logs"
       },
-      "description": "E-Mobility can get real time data of your cars like the current state of charge and use this information with the smart charging algorithm to optimize charging sessions.",
+      "description": "CERO SMART MOBILITY can get real time data of your cars like the current state of charge and use this information with the smart charging algorithm to optimize charging sessions.",
       "setting_do_not_exist": "Configuration has not been found",
       "setting_not_found": "Car connector settings have not been found",
       "create_success": "Car connector settings have been created successfully",
@@ -1910,7 +1910,7 @@
       "update_error": "Error occurred while updating the Car connector settings, check the logs"
     },
     "information": "Information",
-    "activation_contact_msg": "To enable this feature, please contact your E-Mobility representative.",
+    "activation_contact_msg": "To enable this feature, please contact your CERO SMART MOBILITY representative.",
     "car": {
       "synchronize_car_catalogs": "Synchronize Cars",
       "synchronize_car_catalogs_dialog_title": "Synchronize Cars",
@@ -2060,8 +2060,8 @@
     "roaming_platforms": "Inter Operability Platform",
     "cpo": "Charging Point Operator",
     "enable_cpo": "Enable Charging Point Operator",
-    "emsp": "e-Mobility Service Provider",
-    "enable_emsp": "Enable e-Mobility Service Provider",
+    "emsp": "CERO SMART MOBILITY Service Provider",
+    "enable_emsp": "Enable CERO SMART MOBILITY Service Provider",
     "tariff_id": "Tariff ID",
     "owner_name": "Owner Name",
     "description": "Open Charge Point Interface",
@@ -2165,7 +2165,7 @@
     "type_placeholder": "Type",
     "roaming_platforms": "Roaming Platforms",
     "cpo": "Charging Point Operator Identification",
-    "emsp": "E-Mobility Service Provider Identification",
+    "emsp": "CERO SMART MOBILITY Service Provider Identification",
     "description": "Open InterCharge Protocol",
     "details": "Identification",
     "country_code": "Country code",
@@ -2612,7 +2612,7 @@
         "partial": "{{inSuccess}} sessions have been transferred successfully and {{inError}} session(s) have encountered an error, check the logs",
         "forbidden_refund_another_user": "You cannot transfer another user's session",
         "not_authorized": "You are not authorized to perform this request",
-        "error": "The E-Mobility application couldn't connect to the refunding system. Contact an administrator.",
+        "error": "The CERO SMART MOBILITY application couldn't connect to the refunding system. Contact an administrator.",
         "concur_connection_invalid": "Your refunding system connection is not configured correctly. Contact an administrator.",
         "tenant_concur_connection_invalid": "The Organization of your refunding system configuration is not complete. Contact an administrator"
       }
