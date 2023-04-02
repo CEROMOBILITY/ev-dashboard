@@ -61,7 +61,7 @@ export class SettingsOcpiEndpointsTableDataSource extends TableDataSource<OCPIEn
         next: (ocpiEndpoints) => {
           // Init auth
           this.authorizations = {
-            canCreate: Utils.convertToBoolean(ocpiEndpoints.canCreate),
+            canCreate: Utils.convertToBoolean(true/* ocpiEndpoints.canCreate */),
             canGenerateLocalToken: Utils.convertToBoolean(ocpiEndpoints.canGenerateLocalToken),
             canPing: Utils.convertToBoolean(ocpiEndpoints.canPing),
           };
@@ -168,6 +168,8 @@ export class SettingsOcpiEndpointsTableDataSource extends TableDataSource<OCPIEn
     const registerAction = new TableRegisterAction().getActionDef();
     const unregisterAction = new TableUnregisterAction().getActionDef();
     const updateCredentialsAction = new TableUpdateOCPICredentialsAction().getActionDef();
+    console.log(ocpiEndpoint);
+
     // Edit
     if (ocpiEndpoint.canUpdate) {
       rowActions.push(this.editAction);

@@ -118,12 +118,12 @@ export class SidebarComponent {
     if (this.loggedUser.tenantID !== 'default') {
       this.centralServerService.getTenantLogo(this.loggedUser.tenantID).subscribe({
         next: (tenantLogo) => {
-          this.logo = tenantLogo ?? Constants.NO_IMAGE;
+          this.logo = tenantLogo ?? Constants.MASTER_TENANT_LOGO_BLACK;
         },
         error: (error) => {
           switch (error.status) {
             case StatusCodes.NOT_FOUND:
-              this.logo = Constants.NO_IMAGE;
+              this.logo = Constants.MASTER_TENANT_LOGO_BLACK;
               break;
             default:
               Utils.handleHttpError(error, this.router, this.messageService,
