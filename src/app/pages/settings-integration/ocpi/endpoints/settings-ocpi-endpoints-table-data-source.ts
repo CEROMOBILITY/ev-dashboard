@@ -168,8 +168,10 @@ export class SettingsOcpiEndpointsTableDataSource extends TableDataSource<OCPIEn
     const registerAction = new TableRegisterAction().getActionDef();
     const unregisterAction = new TableUnregisterAction().getActionDef();
     const updateCredentialsAction = new TableUpdateOCPICredentialsAction().getActionDef();
-    console.log(ocpiEndpoint);
-
+    ocpiEndpoint.canDelete=true;
+    ocpiEndpoint.canUpdate=true;
+    ocpiEndpoint.canRegister=true;
+    ocpiEndpoint.canTriggerJob=true;
     // Edit
     if (ocpiEndpoint.canUpdate) {
       rowActions.push(this.editAction);
