@@ -22,6 +22,8 @@ export class SettingsOcpiEndpointDialogComponent implements AfterViewInit {
     this.dialogMode = dialogParams.dialogMode;
     this.authorizations = dialogParams.authorizations;
     this.authorizations.canCreate=true;
+    this.authorizations.canGenerateLocalToken=true;
+    this.authorizations.canPing=true;
   }
 
   public ngAfterViewInit() {
