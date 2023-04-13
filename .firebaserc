@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "evse-497c9"
-  }
+    "default": "evse-497c9",
+    "staging": "cero-2cd1f"
+  },
+  "targets": {},
+  "etags": {}
 }

@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "site": "ev-dashboard-dev",
+    "site": "cero-2cd1f",
     "public": "dist",
     "ignore": [
       "firebase.json",
